@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
-import { Container, Swapper, DivBtnMob, Back, Home } from "./styles";
+import { Container, Swapper, } from "./styles";
 
 import ContainerText from "../../components/ContainerText";
 import ContainerImage from "../../components/ContainerImage";
+import ContainerBtnMob from "../../components/ContainerBtnMob";
 
 function Error() {
   return (
@@ -36,11 +37,7 @@ function Error() {
         >
           <ContainerImage />
         </motion.div>
-
-        <DivBtnMob>
-          <Back to={"/"}>VOLTAR</Back>
-          <Home to={"/"}>IR PARA A HOME</Home>
-        </DivBtnMob>
+          <ContainerBtnMob/>
       </Swapper>
     </Container>
   );

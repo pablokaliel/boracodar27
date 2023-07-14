@@ -51,8 +51,8 @@ export const DivImg = styled.div`
       height: 230px;
 
       @media (max-width: 400px) {
-        height: 120px;
-        width: 120px;
+        height: 200px;
+        width: 150px;
       }
     }
   }
